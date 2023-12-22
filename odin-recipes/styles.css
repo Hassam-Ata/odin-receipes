@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    /* Centers content horizontally */
+}
+
+/* Style for the h1 tag */
+h1 {
+    text-align: center;
+    color: rgb(232, 242, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the recipe container */
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Style for each recipe item */
+.recipe-item {
+    text-align: center;
+    margin: 20px;
+    color: rgb(220, 203, 203);
+    width: calc(33.33% - 40px); /* Set width for each item (3 items in a row) */
+    max-width: 300px; /* Maximum width for each item */
+    box-sizing: border-box;
+}
+
+/* Style for the images */
+.recipe-item img {
+    width: 100%; /* Adjust image width to fit its container */
+    height: auto; /* Maintain image aspect ratio */
+    border: 3px solid #258da2d7; /* Border style */
+    border-radius: 10px;
+}
+.recipe-item p {
+    color: rgb(212, 207, 207); /* Change the color to your preferred choice */
+}
